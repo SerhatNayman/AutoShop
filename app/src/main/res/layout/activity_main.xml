@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6DAC2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E6057"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/mainheader"
+            android:padding="10dp"></ImageView>
+
+    </LinearLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Mainslider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:padding="20dp"></androidx.viewpager.widget.ViewPager>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ilanlar"
+            android:paddingBottom="8dp"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ilanver"
+            android:padding="10dp"
+            android:paddingBottom="8dp"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/img3"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/favorilerim"
+            android:padding="10dp"
+            android:paddingBottom="8dp"></ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/img4"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/bilgilerim"
+            android:padding="10dp"
+            android:paddingBottom="8dp"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/img5"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/mesajlarim"
+            android:padding="10dp"
+            android:paddingBottom="8dp"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/img6"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/ilanlarim"
+            android:padding="10dp"
+            android:paddingBottom="8dp"></ImageButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/cikis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/cikis1"></ImageButton>
+
+    </LinearLayout>
+
+
+</LinearLayout>
